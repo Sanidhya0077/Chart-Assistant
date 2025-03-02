@@ -14,7 +14,7 @@ export default function ChatInterface({ messages, onQuery, setSelectedStock }) {
 
   return (
     <div className="chat-container">
-      <h2 className="chat-title">Chat Assistant</h2>
+      <h2 className="chat-title">Chart Assistant</h2>
 
       {/* Chat Messages */}
       <div className="chat-box">
