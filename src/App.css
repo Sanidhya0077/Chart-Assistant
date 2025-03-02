@@ -1,0 +1,38 @@
+/* Apply styles to the entire app */
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: Arial, sans-serif;
+}
+
+/* Main container (splits screen into two sections) */
+.container {
+  display: flex;
+  height: 100vh;
+  background-color: #121212;
+  color: white;
+}
+
+/* Left panel for stock search */
+.left-panel {
+  width: 38%;
+  background-color: #1e1e1e;
+  padding: 20px;
+  border-right: 2px solid #444;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Right panel for stock chart */
+.right-panel {
+  width: 67%;
+  background-color: #222222;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

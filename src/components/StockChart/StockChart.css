@@ -1,0 +1,25 @@
+.stock-chart-container {
+  width: 90%;
+  height: 500px;
+  background-color: #222;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.no-stock-message {
+  color: #bbb;
+  font-size: 18px;
+  text-align: center;
+}
+
+/* Stock Name Below Chart */
+.stock-name {
+  margin-top: 10px;
+  font-size: 18px;
+  color: white;
+  text-align: center;
+}
