@@ -16,7 +16,6 @@ export default function ChatInterface({ messages, onQuery, setSelectedStock }) {
     <div className="chat-container">
       <h2 className="chat-title">Chart Assistant</h2>
 
-      {/* Chat Messages */}
       <div className="chat-box">
         {messages.map((msg, index) => (
           <div
@@ -31,7 +30,6 @@ export default function ChatInterface({ messages, onQuery, setSelectedStock }) {
         ))}
       </div>
 
-      {/* Chat Input */}
       <form onSubmit={handleSubmit} className="chat-input-form">
         <input
           type="text"

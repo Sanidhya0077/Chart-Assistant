@@ -5,9 +5,8 @@ import "./App.css";
 
 export default function App() {
   const [selectedStock, setSelectedStock] = useState("");
-  const [messages, setMessages] = useState([]); // Store chat history
+  const [messages, setMessages] = useState([]);
 
-  // Map common stock names to their symbols
   const stockMapping = {
     AAPL: ["AAPL", "APPLE"],
     TSLA: ["TSLA", "TESLA"],
@@ -19,7 +18,6 @@ export default function App() {
   const handleQuery = (query) => {
     setMessages((prev) => [...prev, { text: query, sender: "User" }]);
 
-    // Create a single RegEx pattern to match stock names and symbols
     const allNames = Object.values(stockMapping).flat().join("|");
     const stockPattern = new RegExp(`\\b(${allNames})\\b`, "i");
 
@@ -28,7 +26,6 @@ export default function App() {
     if (stockMatch) {
       const matchedName = stockMatch[0].toUpperCase();
 
-      // Find the actual stock symbol from the mapping
       const stockSymbol = Object.keys(stockMapping).find((symbol) =>
         stockMapping[symbol].includes(matchedName)
       );
