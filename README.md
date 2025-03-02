@@ -24,7 +24,7 @@ A **chat-based stock chart application** where users can enter stock-related que
 
 ## **📦 Installation & How to Run This Project**
 
-### **1️⃣ Clone the Repository**
+### **1️ Clone the Repository**
 
 ```sh
 git clone https://github.com/Sanidhya0077/Chart-Assistant.git
@@ -37,7 +37,7 @@ cd Chart-Assistant
 npm install
 ```
 
-### **2 Launch the Project**
+### **3 Launch the Project**
 
 ```sh
 npm run dev
