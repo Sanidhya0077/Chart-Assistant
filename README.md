@@ -1,16 +1,44 @@
-<<<<<<< HEAD
-# Chart-Assistant
-=======
-# React + Vite
+# 📈 Chart Assistant
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A **chat-based stock chart application** where users can enter stock-related queries and view stock price charts dynamically.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## **Features**
 
-## Expanding the ESLint configuration
+**Chat-based stock search** (`"Show me AAPL stock prices"`)  
+**Matches stock symbols and full names** (`AAPL` & `APPLE` show the same chart)
+**Saves Chat History**  
+**Displays stock prices within 7 Days Timeframe**  
+**Dark & Modern UI**
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
->>>>>>> 6eb8367 (Chart Assistant Code)
+---
+
+## **🛠️ Tech Stack**
+
+- **Frontend**: React.js
+- **Charting**: [Recharts](https://recharts.org/)
+- **CSS**: Custom styling using only CSS
+
+---
+
+## **📦 Installation & How to Run This Project**
+
+### **1️⃣ Clone the Repository**
+
+```sh
+git clone https://github.com/Sanidhya0077/Chart-Assistant.git
+cd Chart-Assistant
+```
+
+### **2 Install dependencies**
+
+```sh
+npm install
+```
+
+### **2 Launch the Project**
+
+```sh
+npm run dev
+```
